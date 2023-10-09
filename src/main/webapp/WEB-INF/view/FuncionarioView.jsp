@@ -22,6 +22,8 @@
 			<td><c:out value="${funcionario.nome }"></c:out>
 			<td><c:out value="${dependente.nome }"></c:out>
 			<td><c:out value="${dependente.salario }"></c:out>
+			<td><c:out value="${dependente.salario }"></c:out>
+			<td><c:out value="${funcionario.salario }"></c:out>
 			</td>
 		</c:forEach>
 	</table>
